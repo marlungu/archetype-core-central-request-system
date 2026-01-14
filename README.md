@@ -1,4 +1,7 @@
 # archetype-core-central-request-system
+
+This is a teaching system about building operational data platforms that can evolve without rewrites.
+
 Each folder contains a README describing its responsibilities and boundaries.
 
 ---

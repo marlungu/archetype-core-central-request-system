@@ -34,7 +34,7 @@ For V0, the system will use:
 
 ### Why Postgres
 
-Postgres is the main place where data lives in V0.
+Postgres is the system of record for V0.
 
 We use it to:
 - store incoming data
@@ -43,6 +43,7 @@ We use it to:
 - share clean, stable data with the API and UI
 
 Postgres acts as the warehouse for V0.
+In practice, this means all raw, cleaned, and shared data lives in one place.
 
 It is a regular relational database, not a large cloud warehouse like Redshift,
 but it is strong enough for this stage of the project.
